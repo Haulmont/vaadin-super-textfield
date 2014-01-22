@@ -14,12 +14,12 @@
         <init-param>
             <description>Vaadin UI to display</description>
             <param-name>UI</param-name>
-            <param-value>com.haulmont.vaadin.sample.SampleVaadinUI</param-value>
+            <param-value>com.haulmont.vaadin.sample.TextFieldVaadinUI</param-value>
         </init-param>
         <init-param>
             <description>Application widgetset</description>
             <param-name>widgetset</param-name>
-            <param-value>com.haulmont.vaadin.sample.AppWidgetSet</param-value>
+            <param-value>com.vaadin.AppWidgetSet</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
